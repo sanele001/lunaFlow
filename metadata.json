@@ -1,0 +1,8 @@
+
+{
+  "name": "LunaFlow - Menopause Tracker",
+  "description": "A supportive, feminine, and modern menopause tracking application designed for empowerment and well-being. Features symptom tracking, cycle monitoring, wellness tools, and personalized insights.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
