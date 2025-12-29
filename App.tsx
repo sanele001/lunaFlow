@@ -6,6 +6,7 @@ import Dashboard from './components/Dashboard';
 import SymptomTracker from './components/SymptomTracker';
 import WellnessHub from './components/WellnessHub';
 import CycleTracker from './components/CycleTracker';
+import About from './components/About';
 import { AppState, Symptom } from './types';
 import { getAppState, saveAppState, MOCK_ARTICLES } from './services/mockApi';
 import { FileText, ArrowLeft, Share2, Download } from 'lucide-react';
@@ -135,6 +136,7 @@ const App: React.FC = () => {
           <Route path="/wellness" element={<WellnessHub />} />
           <Route path="/insights" element={<InsightsPage />} />
           <Route path="/resources" element={<ResourcesPage />} />
+          <Route path = "/About"  element={<About/>}/>
           <Route path="/resources/:slug" element={<ArticleDetailPage />} />
         </Routes>
       </Layout>

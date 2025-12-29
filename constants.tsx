@@ -11,6 +11,8 @@ export const NAV_ITEMS = [
   { label: 'Resources', path: '/resources', icon: <BookOpen className="w-5 h-5" /> },
 ];
 
+export const ABOUT = [{ label: 'About this project', path: '/About', icon: <BookOpen className="w-5 h-5" /> }]
+
 export const MOCK_SYMPTOMS_LIST = [
   "Hot Flashes", "Night Sweats", "Brain Fog", "Joint Pain", "Insomnia", "Anxiety", "Mood Swings", "Fatigue"
 ];
