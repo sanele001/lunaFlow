@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { NAV_ITEMS } from '../constants';
+import { NAV_ITEMS,ABOUT } from '../constants';
 import { Bell, User } from 'lucide-react';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -15,7 +15,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           </h1>
         </div>
         <nav className="flex-1 px-4 space-y-2">
-          {NAV_ITEMS.map((item) => (
+          {[...NAV_ITEMS,...ABOUT,].map((item) => (
             <NavLink
               key={item.path}
               to={item.path}
